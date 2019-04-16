@@ -1,6 +1,6 @@
 {
   "name": "react-static-plugin-react-router",
-  "version": "7.0.0",
+  "version": "7.0.8",
   "description": "A React-Static plugin that adds react-router support for React Static",
   "main": "browser.api.js",
   "repository": "https://github.com/nozzle/react-static.git",
@@ -11,7 +11,7 @@
     "build": "babel src --out-dir .",
     "watch": "yarn build --watch",
     "test": "yarn format",
-    "format": "prettier 'src/**/*.js' --write",
+    "format": "prettier src/**/*.js --write",
     "preversion": "yarn build"
   },
   "peerDependencies": {
